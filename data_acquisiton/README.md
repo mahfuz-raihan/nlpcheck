@@ -63,26 +63,26 @@ pd.read_csv('file.csv', skiprows=[0, 1])
 
 pd.read_csv('file,csv', nrows=100)
 ```
-### 8. **```encoding```** parameter
+### 9. **```encoding```** parameter
 
 Make the encoding systems of a datasets.
 
 ```python
 pd.read_csv('file.csv',encoding='utf-8')
 ```
-### 9. **```dtype```** parameter
+### 10. **```dtype```** parameter
 
 Use for transform a data dype in certain data type. 
 ```python
 pd.read_csv('file.csv', dtype={'col_name':int/str etc})
 ```
-### 10. **Handling date (```parse_dates```)**
+### 11. **Handling date (```parse_dates```)**
 
 to convert any str/object data type to data format. 
 ```python
 pd.read_csv('catalog.csv', parse_dates=['date'])
 ```
-### 11. **```converter```** parameter
+### 12. **```converter```** parameter
 
 Use to convert any str/int value to any type of systax. 
 ```python
@@ -95,14 +95,14 @@ def rename(name):
 # print(rename('United States'))
 pd.read_csv('catalog.csv', converters={'col_name':rename})
 ```
-### 12. **```na_values``` parameter**
+### 13. **```na_values``` parameter**
 
 use any values to NaN tyep value. 
 ```python
 pd.read_csv('file.csv', na_values={'col_name':'value'})
 ```
 
-### 13. **Loading a huge dataset in chunks**
+### 14. **Loading a huge dataset in chunks**
 
 when we use large dataset what we will need to load but have not enough RAM in PC. Then we need to use ```chunks``` parameters. 
 ```python
