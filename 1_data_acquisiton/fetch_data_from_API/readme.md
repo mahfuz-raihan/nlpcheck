@@ -21,3 +21,8 @@ for i in range(1, len(pages)):
 df.shape # check the shape
 df.to_csv('file.csv') # save a csv file
 ```
+You can find the above data using this [TMDb]( https://developers.themoviedb.org) website.
+
+and also find more free website who are provide free API service [Rapid API](https://rapidapi.com/collection/list-of-free-apis)
+
+JSON Viewer: [JSON Viewer Online](https://rapidapi.com/collection/list-of-free-apis)
