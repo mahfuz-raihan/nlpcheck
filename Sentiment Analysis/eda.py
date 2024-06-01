@@ -22,5 +22,5 @@ print(f'Test data shape: {x_test.shape}')
 
 # show the dataset distribution
 dd = pd.Series(y_train).value_counts()
-sns.barplot(x=np.array(['negative','positive']),y=dd.values)
+sns.barplot(x=np.array(['negative','positive']),y=dd.values) # using seaborn
 plt.show()
